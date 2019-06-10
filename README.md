@@ -29,7 +29,7 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 - assets ： 缓存菜单图片， 方便微信发送
 - plugins: <br />
     -DummyProvider.py: 测试 代码假菜单 <br />
-    -MenuProvider.py ：初始class， 方便之后添加其他菜单 <br />
+    -MenuProvider.py ：初始class，方便之后添加其他菜单 <br />
     -XiaChuFang.py   : 爬取下厨房 每周精选菜单 <br />
 
 ## 项目配置
@@ -38,14 +38,15 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 
 - pip install beautifulsoup4
 - pip install itchat 
+- pip install requests
 
 ## 项目运行
 
-建议使用微信小号。
+建议使用微信小号。怕有封号风险
 
 ### 1.直接运行
 ```
-python server.py
+python server.py, 微信扫码登录，目前仅支持群聊天里，@本人 外加关键词 "吃"
 ```
 
 
