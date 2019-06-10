@@ -16,8 +16,7 @@ provider = XiaChuFang(3)
 
 
 @itchat.msg_register(TEXT, isGroupChat=True)
-def text_reply(msg):
-    print(msg)
+def text_reply(msg):    
     # set key word to active auto reply, also user much be @ in wechat
     if '吃' in msg['Text'] and msg.isAt:
         for menu in provider.get_menu():
