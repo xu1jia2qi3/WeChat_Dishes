@@ -8,7 +8,7 @@
 Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 
 ### 使用库
-- [itchat] - 微信个人号接口
+- [itchat](https://github.com/littlecodersh/ItChat)- 微信个人号接口
 - [requests] - 网络请求库
 - [beautifulsoup4] - 解析网页
 
