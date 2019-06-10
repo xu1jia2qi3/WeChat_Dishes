@@ -27,10 +27,10 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 ### 目录结构
 - server.py : 运行服务器代码， 设置关键词和菜单数量
 - assets ： 缓存菜单图片， 方便微信发送
-- plugins:
-    -DummyProvider.py: 测试 代码假菜单
-    -MenuProvider.py ：初始class， 方便之后添加其他菜单
-    -XiaChuFang.py   : 爬取下厨房 每周精选菜单
+- plugins:/n
+    -DummyProvider.py: 测试 代码假菜单/n
+    -MenuProvider.py ：初始class， 方便之后添加其他菜单/n
+    -XiaChuFang.py   : 爬取下厨房 每周精选菜单/n
 
 ## 项目配置
 
