@@ -49,5 +49,4 @@ python server.py
 ```
 
 
-  [1]: https://github.com/sfyc23/EverydayWechat
   
