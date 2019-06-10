@@ -20,7 +20,7 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 测试版只爬取了一家， 之后可以更新更多
 
 ### 效果展示
-![微信截图](https://photos.app.goo.gl/6c1R2aSkhuWz373u6)
+![微信截图](demo/demo1.png)
 
 ## 代码说明
 
