@@ -46,7 +46,7 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 
 ### 1.直接运行
 ```
-python server.py, 微信扫码登录，目前仅支持群聊天里，@本人 外加关键词 "吃"<br />
+python server.py, 微信扫码登录，目前仅支持群聊天里，@本人 外加关键词 "吃" 
 如需修改 请修改server.py中关键词，及参考itchat api
 ```
 
