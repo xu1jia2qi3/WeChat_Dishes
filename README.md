@@ -9,8 +9,8 @@ Github: [https://github.com/xu1jia2qi3/WeChat_Dishes.git]
 
 ### 使用库
 - [itchat](https://github.com/littlecodersh/ItChat)- 微信个人号接口
-- [requests] - 网络请求库
-- [beautifulsoup4] - 解析网页
+- [requests](http://docs.python-requests.org/en/master/) -网络请求库
+- [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html#) - 解析网页
 
 ### 功能
 自动回复网上爬取菜单
