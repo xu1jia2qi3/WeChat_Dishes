@@ -1,8 +1,8 @@
 import itchat
-from itchat.content import *
-from plugins.XiaChuFang import XiaChuFang
 import requests
 import os
+from itchat.content import *
+from plugins.XiaChuFang import XiaChuFang
 
 
 def download_img(url, file_path):
@@ -16,7 +16,7 @@ provider = XiaChuFang(3)
 
 
 @itchat.msg_register(TEXT, isGroupChat=True)
-def text_reply(msg):    
+def text_reply(msg):
     # set key word to active auto reply, also user much be @ in wechat
     if '吃' in msg['Text'] and msg.isAt:
         for menu in provider.get_menu():
